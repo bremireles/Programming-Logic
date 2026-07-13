@@ -1,24 +1,24 @@
 ﻿Console.WriteLine("Hello, World!");
 Console.WriteLine("Hey Bre! Welcome to IT-1050");
 //Bre Mireles Title:[IT-1050- Lab1]
-//Step 2
+//Step 2  - Basic Output
 Console.WriteLine("Bre Mireles - Course Title: IT-1050");
-//Step3
+//Step 3 - Declare and Use Variables 
 int myAge = 24;
 string favProgLang = "Python";
 double progPrior = 10;
 bool progExper = true;
 Console.WriteLine("I am " + myAge + " years old," + " my favorite programming language is: " + favProgLang + "." + " The number of programs I've written before this lab is at least " + progPrior + "," + " and it is " + progExper + " that I have programming experience.");
-//Step 4
+//Step 4 - Use Constants
 const string mySchool = "School name: Tri-C";
 Console.WriteLine(mySchool);
-//Step 5 
+//Step 5 - Type Casting 
 double randDeci = 9.78;
 bool randBool = true;
 
 Console.WriteLine(Convert.ToString("Double: " + randDeci));
 Console.WriteLine(Convert.ToString("Boolean to string: " + randBool));
-//Step6
+//Step 6 - User Input and Type Conversion 
 Console.WriteLine("Enter name: ");
 string userName = Console.ReadLine();
 
@@ -29,7 +29,7 @@ int userAge = Convert.ToInt32(ageInput);
 Console.WriteLine("Hello " + userName + "!" + " You are " + userAge + " years old. ");
 //Step 7 - Arithmetic Operators 
 int num1 = 50;
-int num2 = 40;
+int num2 = 40; 
 Console.WriteLine("50+10= " + (num1 + 10));
 Console.WriteLine("40+10=" + (num2 + 10));
 Console.WriteLine("50-2= " + (num1 - 2));
